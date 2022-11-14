@@ -5,3 +5,10 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
+
+toastr.options = {
+  "preventDuplicates": true,
+  "preventOpenDuplicates": true
+  };
+  
+  toastr.error("Your Message","Your Title",{timeOut: 5000});
